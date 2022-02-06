@@ -1,0 +1,5 @@
+#ignore IDea project files
+.idea/
+
+#ignore out folder for binary classes
+out/
