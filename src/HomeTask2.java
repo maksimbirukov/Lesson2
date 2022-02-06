@@ -4,11 +4,10 @@ import java.util.Date;
 public class HomeTask2 {
     public static void main(String[] args) {
         System.out.println("Введите длину прямоугольника:");
-        Scanner length = new Scanner(System.in); //create scanner for length
-        int a = length.nextInt(); //set length to var а
+        Scanner scan = new Scanner(System.in); //create scanner for length
+        int a = scan.nextInt(); //set length to var а
         System.out.println("Введите ширину прямоугольника:");
-        Scanner width = new Scanner(System.in); //create scanner for width
-        int b = width.nextInt(); //set width to var b
+        int b = scan.nextInt(); //set width to var b
         int S = a*b;
         int P = 2*(a+b);
         Date date = new Date();
