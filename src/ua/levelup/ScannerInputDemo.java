@@ -18,3 +18,4 @@ public class ScannerInputDemo {
         System.out.println("Data you typed -> " + name + " " + age);
     }
 }
+
