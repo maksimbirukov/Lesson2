@@ -11,6 +11,6 @@ System.out.print("Введите значние стороны b=");
 double b=scan.nextDouble();
 double P=2*(a+b);
 double S=a*b;
-System.out.format("Периметр P="+P+" Площадь S="+S+"  Расчет был выполнен - %tY - %<tB - %<tA - %<tT", new Date());
+System.out.format("Периметр P=%f Площадь S=%f  Расчет был выполнен - %tY - %<tB - %<tA - %<tT", P, S, new Date());
     }
 }
