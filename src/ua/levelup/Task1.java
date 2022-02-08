@@ -18,7 +18,7 @@ public class Task1 {
             int s = length * width;
             int p = (length + width) * 2;
 
-            if(length<=0 | width<=0 | length==width) {
+            if(length<=0 | width<=0) {
                 System.out.println("Try again");
             }
             else {
